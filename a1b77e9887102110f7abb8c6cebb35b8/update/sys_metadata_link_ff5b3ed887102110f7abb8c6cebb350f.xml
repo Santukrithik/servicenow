@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6fa301257f701200bee45f19befa9164</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_ci_ip_router">
+    <cmdb_ci_ip_router action="INSERT_OR_UPDATE">
+        <asset/>
+        <asset_tag/>
+        <assigned/>
+        <assigned_to/>
+        <assignment_group/>
+        <attestation_score/>
+        <attestation_status>Not Yet Reviewed</attestation_status>
+        <attested>false</attested>
+        <attested_by/>
+        <attested_date/>
+        <attributes/>
+        <bandwidth/>
+        <business_unit/>
+        <can_hub>false</can_hub>
+        <can_partitionvlans>false</can_partitionvlans>
+        <can_print>false</can_print>
+        <can_route>false</can_route>
+        <can_switch>false</can_switch>
+        <category>Resource</category>
+        <change_control/>
+        <channels/>
+        <checked_in/>
+        <checked_out/>
+        <comments/>
+        <company/>
+        <correlation_id/>
+        <cost/>
+        <cost_cc>USD</cost_cc>
+        <cost_center/>
+        <cpu_count>1</cpu_count>
+        <cpu_manufacturer/>
+        <cpu_speed/>
+        <cpu_type/>
+        <default_gateway/>
+        <delivery_date/>
+        <department/>
+        <device_type>router</device_type>
+        <discovery_proto_id/>
+        <discovery_proto_type/>
+        <discovery_source/>
+        <disk_space/>
+        <dns_domain/>
+        <due/>
+        <due_in/>
+        <duplicate_of/>
+        <environment/>
+        <fault_count>0</fault_count>
+        <firmware_manufacturer/>
+        <firmware_version/>
+        <first_discovered/>
+        <fqdn/>
+        <gl_account/>
+        <hardware_status>installed</hardware_status>
+        <hardware_substatus/>
+        <install_date/>
+        <install_status>1</install_status>
+        <internet_facing>false</internet_facing>
+        <invoice_number/>
+        <ip_address>10.0.0.2</ip_address>
+        <justification/>
+        <last_discovered/>
+        <lease_id/>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <location/>
+        <mac_address/>
+        <maintenance_schedule/>
+        <managed_by/>
+        <managed_by_group/>
+        <manufacturer/>
+        <model_id/>
+        <model_number/>
+        <monitor>false</monitor>
+        <most_frequent_user/>
+        <name>IP-Router-2</name>
+        <operational_status>1</operational_status>
+        <order_date/>
+        <owned_by/>
+        <physical_interface_count/>
+        <po_number/>
+        <ports/>
+        <purchase_date/>
+        <ram/>
+        <range/>
+        <schedule/>
+        <serial_number/>
+        <short_description/>
+        <skip_sync>false</skip_sync>
+        <snmp_sys_location/>
+        <start_date/>
+        <subcategory>IP</subcategory>
+        <support_group/>
+        <supported_by/>
+        <sys_class_name>cmdb_ci_ip_router</sys_class_name>
+        <sys_class_path>/!!/!2/!!/!.</sys_class_path>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2016-01-06 17:14:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fa301257f701200bee45f19befa9164</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>glide.maint</sys_updated_by>
+        <sys_updated_on>2016-01-06 18:52:33</sys_updated_on>
+        <unverified>false</unverified>
+        <vendor/>
+        <warranty_expiration/>
+    </cmdb_ci_ip_router>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 06:38:11</sys_created_on>
+        <sys_id>ff5b3ed887102110f7abb8c6cebb350f</sys_id>
+        <sys_name>IP-Router-2</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_metadata_link_ff5b3ed887102110f7abb8c6cebb350f</sys_update_name>
+        <tablename>cmdb_ci</tablename>
+    </sys_metadata_link>
+</record_update>
