@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>thanks for contacting  selfcareops help desk.how can we help you?</key>
+        <language>en</language>
+        <message>Thanks for contacting  SelfCareOps Help Desk.How can we Help You?</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 10:25:59</sys_created_on>
+        <sys_id>3c8f63d887d02110f7abb8c6cebb35d2</sys_id>
+        <sys_name>thanks for contacting  selfcareops help desk.how can we help you?</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_ui_message_3c8f63d887d02110f7abb8c6cebb35d2</sys_update_name>
+    </sys_ui_message>
+</record_update>

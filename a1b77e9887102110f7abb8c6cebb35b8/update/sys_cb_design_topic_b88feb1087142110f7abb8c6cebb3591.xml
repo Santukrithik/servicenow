@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__b88f63d88bd02110504427bc255b79cf">b08feb1087142110f7abb8c6cebb358c</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"7a8cca5ca58d422ebdde6e95b47a4a02","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"7a8cca5ca58d422ebdde6e95b47a4a02"}],"goals":[{"name":"primary","trigger_id":"7a8cca5ca58d422ebdde6e95b47a4a02","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Thanks for contacting  SelfCareOps Help Desk.How can we Help You?\", vaContext.getRequesterLang())"},"id":"a72179e9604c4bbda2681ce9aa9ee14c","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"0fb22d44ed5e4d0186e20c80ae3d49b9","name":"End"},{"type":"InputPrompt","type":"InputPrompt","variable_id":"8231ee811dbd4b5e9ae440ef889835fe","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"please provide short description of your issue\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"id":"ccaf7ba84fe74e4cbf1a925d8c082e94","name":"Short Description","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"formatType":"Text","validationScript":""},{"type":"ChoiceInputPrompt","type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"80c33d67353340d6bf94c662881a2ae5","name":"What is the issue?","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"0bec6b6ce7bf4a3fa55198d3556a9cb1","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"what is the issue?\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true}}],"edges":[{"type":"Edge","source_node_id":"a72179e9604c4bbda2681ce9aa9ee14c","target_node_id":"ccaf7ba84fe74e4cbf1a925d8c082e94","id":"92e458ff83624e2d82bfa2931efd0ec9"},{"type":"Edge","source_node_id":"ccaf7ba84fe74e4cbf1a925d8c082e94","target_node_id":"80c33d67353340d6bf94c662881a2ae5","id":"4bd1f4c6d0b44415aef131484ee27860"},{"type":"Edge","source_node_id":"80c33d67353340d6bf94c662881a2ae5","target_node_id":"0fb22d44ed5e4d0186e20c80ae3d49b9","id":"c17afff1487541dd907b71648b542838"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"VariableDto","type":"String","name":"short_description","list":false,"id":"8231ee811dbd4b5e9ae440ef889835fe","formatType":"Text","validationScript":"","secure":false,"sensitive":false},{"type":"Choice","type":"Choice","choices":[{"name":"Issue1:Router CPU issue","element":"Router CPU issue"},{"name":"Issue2:Router Firmware issue","element":"Issue2:Router Firmware issue"},{"name":"Issue3:Router Password Issue","element":"Issue3:Router Password Issue"}],"id":"0bec6b6ce7bf4a3fa55198d3556a9cb1","name":"what_is_the_issue_","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"a1b77e9887102110f7abb8c6cebb35b8","domain":"global","topic_type":"STANDARD","channels":[],"id":"52cb839c87502110f7abb8c6cebb3510","name":"_PRVW__b88f63d88bd02110504427bc255b79cf","key_phrases":["incident resolution"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>52cb839c87502110f7abb8c6cebb3510</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a72179e9604c4bbda2681ce9aa9ee14c": {
+          "id": "a72179e9604c4bbda2681ce9aa9ee14c",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thanks for contacting  SelfCareOps Help Desk.How can we Help You?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "0fb22d44ed5e4d0186e20c80ae3d49b9": {
+          "id": "0fb22d44ed5e4d0186e20c80ae3d49b9",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ccaf7ba84fe74e4cbf1a925d8c082e94": {
+          "id": "ccaf7ba84fe74e4cbf1a925d8c082e94",
+          "stepType": "Prompt",
+          "name": "Short Description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "please provide short description of your issue"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "8231ee811dbd4b5e9ae440ef889835fe",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "80c33d67353340d6bf94c662881a2ae5": {
+          "stepType": "ChoicePrompt",
+          "name": "What is the issue?",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "what is the issue?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "0bec6b6ce7bf4a3fa55198d3556a9cb1",
+          "id": "80c33d67353340d6bf94c662881a2ae5",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "92e458ff83624e2d82bfa2931efd0ec9",
+          "edgeType": "Edge",
+          "source": "a72179e9604c4bbda2681ce9aa9ee14c",
+          "target": "ccaf7ba84fe74e4cbf1a925d8c082e94",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4bd1f4c6d0b44415aef131484ee27860",
+          "edgeType": "Edge",
+          "source": "ccaf7ba84fe74e4cbf1a925d8c082e94",
+          "target": "80c33d67353340d6bf94c662881a2ae5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c17afff1487541dd907b71648b542838",
+          "edgeType": "Edge",
+          "source": "80c33d67353340d6bf94c662881a2ae5",
+          "target": "0fb22d44ed5e4d0186e20c80ae3d49b9",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "8231ee811dbd4b5e9ae440ef889835fe": {
+      "id": "8231ee811dbd4b5e9ae440ef889835fe",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTY3MzAwMDA3ODQ4MyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "0bec6b6ce7bf4a3fa55198d3556a9cb1": {
+      "id": "0bec6b6ce7bf4a3fa55198d3556a9cb1",
+      "name": "what_is_the_issue_",
+      "label": "What Is The Issue?",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Issue1:Router CPU issue",
+          "value": "Router CPU issue"
+        },
+        {
+          "label": "Issue2:Router Firmware issue",
+          "value": "Issue2:Router Firmware issue"
+        },
+        {
+          "label": "Issue3:Router Password Issue",
+          "value": "Issue3:Router Password Issue",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <name>_PRVW__b88f63d88bd02110504427bc255b79cf</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 10:25:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b88feb1087142110f7abb8c6cebb3591</sys_id>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_cb_design_topic_b88feb1087142110f7abb8c6cebb3591</sys_update_name>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
