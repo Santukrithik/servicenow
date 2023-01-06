@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Agent Availability">673687c45346101042a9ddeeff7b1249</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"fb5497d84d904bd8b37d6acf2bf5c8ef","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"fb5497d84d904bd8b37d6acf2bf5c8ef"}],"goals":[{"name":"primary","trigger_id":"fb5497d84d904bd8b37d6acf2bf5c8ef","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"0918de53a11345469d4aa27ca205d554","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"a05f01d5daab49d3bc4d2ad69bd3ec81","name":"End"},{"type":"ScriptOutputPrompt","type":"ScriptOutputPrompt","output_type":"single_part","id":"decf5866802e4bcf8cd0be05747a1daf","name":"Get Agent Info","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"value":{"type":"String","type":"String","mode":"string","value":"(function execute() {\n    var result = vaSystem.getAgentTopicInfo();\n    vaVars.agentAvailable = result.agent_available;\n    vaVars.supportQueue = result.support_queue;\n    vaVars.waitingTime = result.waiting_time;\n})()\n"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"0918de53a11345469d4aa27ca205d554","target_node_id":"decf5866802e4bcf8cd0be05747a1daf","id":"a674aa6eba0844de8aa018d16f01c96d"},{"type":"Edge","source_node_id":"decf5866802e4bcf8cd0be05747a1daf","target_node_id":"a05f01d5daab49d3bc4d2ad69bd3ec81","id":"55ed959c6144460faaf5af6964f46a2c"}],"id":"primary"}],"script_variables":[{"type":"VariableDto","type":"String","name":"agentAvailable","value":{"type":"String","type":"String","mode":"string"},"list":false,"id":"e8f14570b553407ea88201bc3252ebb6","formatType":"text","secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"supportQueue","value":{"type":"String","type":"String","mode":"string"},"list":false,"id":"b3c5c8f4b9374ccf9e74b8e30b1001cc","formatType":"text","secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"waitingTime","value":{"type":"String","type":"String","mode":"string"},"list":false,"id":"479d0f1e24304070867b958689a1551c","formatType":"text","secure":false,"sensitive":false}],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"global","library-usage":{"type":"Library","input-parameters":[],"return-values-mapping":[{"name":"agentavailable","label":"agentAvailable","value":{"type":"String","type":"String","mode":"string","value":"{{vaVars.agentAvailable}}"}},{"name":"supportqueue","label":"supportQueue","value":{"type":"String","type":"String","mode":"string","value":"{{vaVars.supportQueue}}"}},{"name":"waitingtime","label":"waitingTime","value":{"type":"String","type":"String","mode":"string","value":"{{vaVars.waitingTime}}"}}]},"domain":"global","topic_type":"TOPIC_BLOCK","channels":[],"id":"da4407845346101042a9ddeeff7b1262","name":"Agent Availability","key_phrases":[],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":true,"readOnly":true,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>da4407845346101042a9ddeeff7b1262</design_topic_id>
+        <graph>{
+            "graph_api_version": "1.0.21",
+            "goals": {
+            "primary": {
+            "id": "primary",
+            "trigger": {
+            "type": "primary"
+            },
+            "name": "primary",
+            "applicability": "",
+            "description": "",
+            "nodes": {
+            "0918de53a11345469d4aa27ca205d554": {
+            "id": "0918de53a11345469d4aa27ca205d554",
+            "stepType": "Start",
+            "name": "Start",
+            "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+            }
+            },
+            "a05f01d5daab49d3bc4d2ad69bd3ec81": {
+            "id": "a05f01d5daab49d3bc4d2ad69bd3ec81",
+            "stepType": "TerminateGoal",
+            "name": "End",
+            "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+            },
+            "outputVariables": [
+            {
+            "key": "agentAvailable",
+            "value": "{{vaVars.agentAvailable}}",
+            "mode": "simple",
+            "disabled": true
+            },
+            {
+            "key": "supportQueue",
+            "value": "{{vaVars.supportQueue}}",
+            "mode": "simple",
+            "disabled": false
+            },
+            {
+            "key": "waitingTime",
+            "value": "{{vaVars.waitingTime}}",
+            "mode": "simple",
+            "disabled": false
+            }
+            ]
+            },
+            "decf5866802e4bcf8cd0be05747a1daf": {
+            "id": "decf5866802e4bcf8cd0be05747a1daf",
+            "stepType": "ScriptOutput",
+            "name": "Get Agent Info",
+            "output_type": "single_part",
+            "script": "(function execute() {\n    var result = vaSystem.getAgentTopicInfo();\n    vaVars.agentAvailable = result.agent_available;\n    vaVars.supportQueue = result.support_queue;\n    vaVars.waitingTime = result.waiting_time;\n})()\n",
+            "applicability": {
+            "value": "",
+            "mode": "query"
+            }
+            }
+            },
+            "edges": [
+            {
+            "id": "a674aa6eba0844de8aa018d16f01c96d",
+            "edgeType": "Edge",
+            "source": "0918de53a11345469d4aa27ca205d554",
+            "target": "decf5866802e4bcf8cd0be05747a1daf",
+            "sourcePort": "",
+            "targetPort": ""
+            },
+            {
+            "id": "55ed959c6144460faaf5af6964f46a2c",
+            "edgeType": "Edge",
+            "source": "decf5866802e4bcf8cd0be05747a1daf",
+            "target": "a05f01d5daab49d3bc4d2ad69bd3ec81",
+            "sourcePort": "",
+            "targetPort": ""
+            }
+            ]
+            }
+            },
+            "variables": {
+            "current-user": {
+            "category": "vaInputs",
+            "id": "current-user",
+            "label": "User",
+            "name": "user",
+            "table": "sys_user",
+            "varType": "reference"
+            },
+            "e8f14570b553407ea88201bc3252ebb6": {
+            "id": "e8f14570b553407ea88201bc3252ebb6",
+            "value": {
+            "value": "",
+            "mode": "simple"
+            },
+            "name": "agentAvailable",
+            "label": "agentAvailable",
+            "varType": "script",
+            "category": "vaVars"
+            },
+            "b3c5c8f4b9374ccf9e74b8e30b1001cc": {
+            "id": "b3c5c8f4b9374ccf9e74b8e30b1001cc",
+            "value": {
+            "value": "",
+            "mode": "simple"
+            },
+            "name": "supportQueue",
+            "label": "supportQueue",
+            "varType": "script",
+            "category": "vaVars"
+            },
+            "479d0f1e24304070867b958689a1551c": {
+            "id": "479d0f1e24304070867b958689a1551c",
+            "value": {
+            "value": "",
+            "mode": "simple"
+            },
+            "name": "waitingTime",
+            "label": "waitingTime",
+            "varType": "script",
+            "category": "vaVars"
+            }
+            }
+            }</graph>
+        <name>Agent Availability</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 07:42:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e43a0b5c87502110f7abb8c6cebb3579</sys_id>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_cb_design_topic_e43a0b5c87502110f7abb8c6cebb3579</sys_update_name>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
