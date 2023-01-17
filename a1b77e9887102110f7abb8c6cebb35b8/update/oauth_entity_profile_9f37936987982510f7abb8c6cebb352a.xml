@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Salesforce Oauth default_profile</name>
+        <oauth_entity display_value="Salesforce Oauth">ed36d32987982510f7abb8c6cebb3532</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 05:52:20</sys_created_on>
+        <sys_id>9f37936987982510f7abb8c6cebb352a</sys_id>
+        <sys_name>Salesforce Oauth default_profile</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>oauth_entity_profile_9f37936987982510f7abb8c6cebb352a</sys_update_name>
+    </oauth_entity_profile>
+</record_update>
