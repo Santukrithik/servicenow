@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>Selfcare Diagnostics - New Tab 2</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 08:06:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37193f3787902110f7abb8c6cebb35f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Selfcare Diagnostics - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>pa_tabs_37193f3787902110f7abb8c6cebb35f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 08:06:43</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</application>
+        <file_path/>
+        <instance_id>574ecf24db6b19103050ac44d4961936</instance_id>
+        <instance_name>dev145820</instance_name>
+        <name>pa_tabs_37193f3787902110f7abb8c6cebb35f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>Selfcare Diagnostics - New Tab 2</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-17 08:06:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37193f3787902110f7abb8c6cebb35f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Selfcare Diagnostics - New Tab 2</sys_name><sys_overrides/><sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package><sys_policy/><sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope><sys_update_name>pa_tabs_37193f3787902110f7abb8c6cebb35f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-17 08:06:43</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>-615544327</payload_hash>
+        <record_name>Selfcare Diagnostics - New Tab 2</record_name>
+        <reverted_from/>
+        <source>6459b2d887102110f7abb8c6cebb3537</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 08:07:05</sys_created_on>
+        <sys_id>5939777787902110f7abb8c6cebb35f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185bec47ba70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 08:07:05</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>73193f3702902110bafe238972551af7</update_guid>
+        <update_guid_history>73193f3702902110bafe238972551af7:1461670950,73193f3702902110bafe238972551af7:1461670950,73193f3702902110bafe238972551af7:1461670950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Selfcare Diagnostics - New Tab 2">1139777787902110f7abb8c6cebb35fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 08:07:05</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>076e55a656c64dcf9ba93cd97de071a1</sys_id>
+        <sys_metadata>37193f3787902110f7abb8c6cebb35f6</sys_metadata>
+        <sys_name>Selfcare Diagnostics - New Tab 2</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">4d48dd6706f94f3699a97207997791e4</sys_scope_delete>
+        <sys_update_name>pa_tabs_37193f3787902110f7abb8c6cebb35f6</sys_update_name>
+        <sys_update_version display_value="pa_tabs_37193f3787902110f7abb8c6cebb35f6">5939777787902110f7abb8c6cebb35f9</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
     <sys_cb_design_topic action="INSERT_OR_UPDATE">
         <compiled_topic display_value="incident resolution">54dbc3dc87502110f7abb8c6cebb35e5</compiled_topic>
-        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"a950038b9a1c4434b89bfacbbf91b42f","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"a950038b9a1c4434b89bfacbbf91b42f"}],"goals":[{"name":"primary","trigger_id":"a950038b9a1c4434b89bfacbbf91b42f","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"a72179e9604c4bbda2681ce9aa9ee14c","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"0fb22d44ed5e4d0186e20c80ae3d49b9","name":"End"}],"edges":[{"type":"Edge","source_node_id":"a72179e9604c4bbda2681ce9aa9ee14c","target_node_id":"0fb22d44ed5e4d0186e20c80ae3d49b9","id":"92e458ff83624e2d82bfa2931efd0ec9"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"a1b77e9887102110f7abb8c6cebb35b8","domain":"global","topic_type":"STANDARD","channels":[],"id":"52cb839c87502110f7abb8c6cebb3510","name":"incident resolution","key_phrases":["incident resolution"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"a335368a9de3423dab9942ef5a106472","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"a335368a9de3423dab9942ef5a106472"}],"goals":[{"name":"primary","trigger_id":"a335368a9de3423dab9942ef5a106472","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Thanks for contacting  SelfCareOps Help Desk.How can we Help You?\", vaContext.getRequesterLang())"},"id":"a72179e9604c4bbda2681ce9aa9ee14c","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Thanks for Contacting Help Desk\", vaContext.getRequesterLang())"},"id":"0fb22d44ed5e4d0186e20c80ae3d49b9","name":"End"},{"type":"InputPrompt","type":"InputPrompt","variable_id":"8231ee811dbd4b5e9ae440ef889835fe","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"please provide short description of your issue\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"id":"ccaf7ba84fe74e4cbf1a925d8c082e94","name":"Short Description","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"formatType":"Text","validationScript":""},{"type":"ChoiceInputPrompt","type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"80c33d67353340d6bf94c662881a2ae5","name":"What is the issue?","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"0bec6b6ce7bf4a3fa55198d3556a9cb1","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"what is the issue?\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true}},{"type":"ReferenceChoiceInputPrompt","type":"ReferenceChoiceInputPrompt","mode":"glide_record","id":"5b57139ce26047eab9f77c4c37a53e23","name":"location details","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"109aae5f516d4ebd9e0cf48ca86c9199","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Can you please provide your location details?\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"no_options_found_message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"no such location exist\", vaContext.getRequesterLang())"},"condition":{"type":"Condition","mode":"glide_query","value":"sys_idISNOTEMPTY"}},{"type":"ReferenceChoiceInputPrompt","type":"ReferenceChoiceInputPrompt","mode":"glide_record","id":"6d8fb5298dd94acdbf6402a1b51ae6c2","name":"router selection","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"a2fdca5aea8142fe850928fff349967b","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"please select your router\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"no_options_found_message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"no such router exists\", vaContext.getRequesterLang())"},"condition":{"type":"Condition","mode":"glide_query","value":"sys_idISNOTEMPTY"}},{"type":"Decision","type":"Decision","name":"Decision","branches":[{"type":"Branch","type":"Branch","label":"Router Cpu Issue","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"what_is_the_issue_=Router CPU issue"},"id":"491f251f5f414b90808f1110982736ed","name":"Router Cpu Issue"},{"type":"Branch","type":"Branch","label":"Always","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":""},"id":"64ef387128ab4f97847c4d02e74444ba","name":"Always"}],"id":"6fadd7ae22ae4c969f4c6dd98ccd0643","goal_id":"primary"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","id":"01e8731c57db428591ae2e3fcda69a2c","name":"ImplicitEnd__ef4e34cbbdb4453ea693c441dc5b5cdc"},{"type":"CRUDAction","type":"CRUDAction","mode":"update","query":"cpu_speed=150","variable_id":"a2fdca5aea8142fe850928fff349967b","id":"6a1edbf107174615a2d14b5b16d7e758","name":"update router record","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"ChoiceInputPrompt","type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"55045325f1b94ef69d9d208314becf65","name":"Confirmation","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"cdf9dfa1b72549c8a5f319374182cc06","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Hi,we have increased your cpu speed to 150 MHZ.please confirm whether your internet is working fine now by typing yes or no\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true}},{"type":"Decision","type":"Decision","name":"Decision","branches":[{"type":"Branch","type":"Branch","label":"No","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"confirmation=No"},"id":"43b61bef65b74900b63f10193541c4ce","name":"No"},{"type":"Branch","type":"Branch","label":"Yes","expression":{"type":"Applicability","type":"Applicability","mode":"query","value":"confirmation=Yes"},"id":"7da48e19af8943bd8bd785d44246948e","name":"Yes"}],"id":"c5b6dc6d90de4cb1b3d4ea603e7ed97e","goal_id":"primary"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","id":"bc5785d94b6f406c8041149f8377be85","name":"ImplicitEnd__e46cc112541c44d48ce27a33180215f7"},{"type":"CRUDAction","type":"CRUDAction","mode":"create","query":"short_description={{vaInputs.short_description}}^sys_created_on={{vaInputs.issue_resolution_date_or_time}}^caller_id={{vaInputs.user.name}}","variable_id":"10f1df7fd3754d65997d30e90211ffdd","id":"9938bd2eae624727a301770fdadf414a","name":"incident record creation","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"InputPrompt","type":"InputPrompt","variable_id":"a65c36baa2b64a808ec622909e5a37f5","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"please provide the date by which you are expecting the issue to be resolved?\", vaContext.getRequesterLang())"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"id":"fb40dedbc6cf47fabe14b5fe5cb4fc7a","name":"issue resolution date or time","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Sorry for the inconvenience.we tried our best to resolve.we are assigning a ticket to corresponding team who will resolve your issue quickly🙂  .Here are your ticket details {0}{1}\", vaContext.getRequesterLang(), [vaInputs.incident_record_creation.assignment_group,vaInputs.incident_record_creation.number])"}],"id":"20ab2d3566704450ade8d924adc189a2","name":"incident details","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Thanks for Contacting Help Desk.🙂\", vaContext.getRequesterLang())"}],"id":"182a1d609b4041dfaf841cd41eb4cf6c","name":"Response message","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"6fadd7ae22ae4c969f4c6dd98ccd0643","target_node_id":"6a1edbf107174615a2d14b5b16d7e758","branch_id":"491f251f5f414b90808f1110982736ed","id":"916acc0dd771407a9804271d1cfae60a","name":"491f251f5f414b90808f1110982736ed"},{"type":"Edge","source_node_id":"a72179e9604c4bbda2681ce9aa9ee14c","target_node_id":"ccaf7ba84fe74e4cbf1a925d8c082e94","id":"92e458ff83624e2d82bfa2931efd0ec9"},{"type":"Edge","source_node_id":"ccaf7ba84fe74e4cbf1a925d8c082e94","target_node_id":"80c33d67353340d6bf94c662881a2ae5","id":"4bd1f4c6d0b44415aef131484ee27860"},{"type":"Edge","source_node_id":"80c33d67353340d6bf94c662881a2ae5","target_node_id":"5b57139ce26047eab9f77c4c37a53e23","id":"c17afff1487541dd907b71648b542838"},{"type":"Edge","source_node_id":"5b57139ce26047eab9f77c4c37a53e23","target_node_id":"6d8fb5298dd94acdbf6402a1b51ae6c2","id":"36f6183c68224838b8c3d5ab88373a20"},{"type":"Edge","source_node_id":"6d8fb5298dd94acdbf6402a1b51ae6c2","target_node_id":"6fadd7ae22ae4c969f4c6dd98ccd0643","id":"1ec80dd60ec34b7aa3f9307812e50739"},{"type":"Edge","source_node_id":"6fadd7ae22ae4c969f4c6dd98ccd0643","target_node_id":"01e8731c57db428591ae2e3fcda69a2c","branch_id":"64ef387128ab4f97847c4d02e74444ba","id":"16e0662152284a7eb8cce88a5d69b218","name":"64ef387128ab4f97847c4d02e74444ba"},{"type":"Edge","source_node_id":"6a1edbf107174615a2d14b5b16d7e758","target_node_id":"55045325f1b94ef69d9d208314becf65","id":"1e2c8834d8db4e7c9c60c1787b732cbd"},{"type":"Edge","source_node_id":"55045325f1b94ef69d9d208314becf65","target_node_id":"c5b6dc6d90de4cb1b3d4ea603e7ed97e","id":"66a5d8f41e3646b8a1e564332f5427a8"},{"type":"Edge","source_node_id":"c5b6dc6d90de4cb1b3d4ea603e7ed97e","target_node_id":"fb40dedbc6cf47fabe14b5fe5cb4fc7a","branch_id":"43b61bef65b74900b63f10193541c4ce","id":"c80b829904e54579879b340b138d8c03","name":"43b61bef65b74900b63f10193541c4ce"},{"type":"Edge","source_node_id":"fb40dedbc6cf47fabe14b5fe5cb4fc7a","target_node_id":"9938bd2eae624727a301770fdadf414a","id":"caa274f684c540f596d6b2408ebeaab7"},{"type":"Edge","source_node_id":"9938bd2eae624727a301770fdadf414a","target_node_id":"20ab2d3566704450ade8d924adc189a2","id":"1a52cd351afe4c8f9c2fd8a3fbdb93ab"},{"type":"Edge","source_node_id":"20ab2d3566704450ade8d924adc189a2","target_node_id":"0fb22d44ed5e4d0186e20c80ae3d49b9","id":"9f9d31f9b10348f0a620d12196cefaa6"},{"type":"Edge","source_node_id":"c5b6dc6d90de4cb1b3d4ea603e7ed97e","target_node_id":"182a1d609b4041dfaf841cd41eb4cf6c","branch_id":"7da48e19af8943bd8bd785d44246948e","id":"4372a3743caf421db436a3ab0acfb3ed","name":"7da48e19af8943bd8bd785d44246948e"},{"type":"Edge","source_node_id":"182a1d609b4041dfaf841cd41eb4cf6c","target_node_id":"bc5785d94b6f406c8041149f8377be85","id":"507c8a16bebf459eaf273fe61a8dbfc7"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"VariableDto","type":"String","name":"short_description","list":false,"id":"8231ee811dbd4b5e9ae440ef889835fe","formatType":"Text","validationScript":"","secure":false,"sensitive":false},{"type":"Choice","type":"Choice","choices":[{"name":"Issue1:Router CPU issue","element":"Router CPU issue"},{"name":"Issue2:Router Firmware issue","element":"Issue2:Router Firmware issue"},{"name":"Issue3:Router Password Issue","element":"Issue3:Router Password Issue"}],"id":"0bec6b6ce7bf4a3fa55198d3556a9cb1","name":"what_is_the_issue_","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Reference","type":"Reference","table":"cmn_location","reference_qualifier_condition":"sys_idISNOTEMPTY","id":"109aae5f516d4ebd9e0cf48ca86c9199","name":"location_details","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Reference","type":"Reference","table":"cmdb_ci_ip_router","reference_qualifier_condition":"sys_idISNOTEMPTY","id":"a2fdca5aea8142fe850928fff349967b","name":"router_selection","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Reference","type":"Reference","table":"","id":"b2bb15f31bd544a781cb4d9a01b9b7a5","name":"update_router_record","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Choice","type":"Choice","choices":[{"name":"Yes","element":"Yes"},{"name":"No","element":"No"}],"id":"cdf9dfa1b72549c8a5f319374182cc06","name":"confirmation","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Reference","type":"Reference","table":"incident","id":"10f1df7fd3754d65997d30e90211ffdd","name":"incident_record_creation","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Date/Time","type":"Date/Time","mode":"date_time","id":"a65c36baa2b64a808ec622909e5a37f5","name":"issue_resolution_date_or_time","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"a1b77e9887102110f7abb8c6cebb35b8","domain":"global","topic_type":"STANDARD","channels":[],"id":"52cb839c87502110f7abb8c6cebb3510","name":"incident resolution","key_phrases":["incident resolution"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
         <design_topic_id>52cb839c87502110f7abb8c6cebb3510</design_topic_id>
         <graph>{
   "graph_api_version": "1.0.41",
@@ -20,8 +20,17 @@
           "stepType": "Start",
           "name": "Start",
           "greetingResponse": {
-            "mode": "simple",
-            "value": ""
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thanks for contacting  SelfCareOps Help Desk.How can we Help You?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
           }
         },
         "0fb22d44ed5e4d0186e20c80ae3d49b9": {
@@ -29,17 +38,662 @@
           "stepType": "TerminateGoal",
           "name": "End",
           "confirmationMessage": {
-            "mode": "simple",
-            "value": ""
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thanks for Contacting Help Desk"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "ccaf7ba84fe74e4cbf1a925d8c082e94": {
+          "id": "ccaf7ba84fe74e4cbf1a925d8c082e94",
+          "stepType": "Prompt",
+          "name": "Short Description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "please provide short description of your issue"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "8231ee811dbd4b5e9ae440ef889835fe",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "80c33d67353340d6bf94c662881a2ae5": {
+          "stepType": "ChoicePrompt",
+          "name": "What is the issue?",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "what is the issue?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "0bec6b6ce7bf4a3fa55198d3556a9cb1",
+          "id": "80c33d67353340d6bf94c662881a2ae5",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "5b57139ce26047eab9f77c4c37a53e23": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "location details",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Can you please provide your location details?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "109aae5f516d4ebd9e0cf48ca86c9199",
+          "id": "5b57139ce26047eab9f77c4c37a53e23",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "no such location exist"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_idISNOTEMPTY"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "6d8fb5298dd94acdbf6402a1b51ae6c2": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "router selection",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "please select your router"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "a2fdca5aea8142fe850928fff349967b",
+          "id": "6d8fb5298dd94acdbf6402a1b51ae6c2",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "no such router exists"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_idISNOTEMPTY"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "6fadd7ae22ae4c969f4c6dd98ccd0643": {
+          "id": "6fadd7ae22ae4c969f4c6dd98ccd0643",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "01e8731c57db428591ae2e3fcda69a2c": {
+          "id": "01e8731c57db428591ae2e3fcda69a2c",
+          "stepType": "ImplicitEnd"
+        },
+        "6a1edbf107174615a2d14b5b16d7e758": {
+          "id": "6a1edbf107174615a2d14b5b16d7e758",
+          "stepType": "CrudAction",
+          "name": "update router record",
+          "template": "cpu_speed=150",
+          "mode": "update",
+          "record": "a2fdca5aea8142fe850928fff349967b",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "b2bb15f31bd544a781cb4d9a01b9b7a5"
+        },
+        "55045325f1b94ef69d9d208314becf65": {
+          "stepType": "ChoicePrompt",
+          "name": "Confirmation",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi,we have increased your cpu speed to 150 MHZ.please confirm whether your internet is working fine now by typing yes or no"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "cdf9dfa1b72549c8a5f319374182cc06",
+          "id": "55045325f1b94ef69d9d208314becf65",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "c5b6dc6d90de4cb1b3d4ea603e7ed97e": {
+          "id": "c5b6dc6d90de4cb1b3d4ea603e7ed97e",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "bc5785d94b6f406c8041149f8377be85": {
+          "id": "bc5785d94b6f406c8041149f8377be85",
+          "stepType": "ImplicitEnd"
+        },
+        "9938bd2eae624727a301770fdadf414a": {
+          "id": "9938bd2eae624727a301770fdadf414a",
+          "stepType": "CrudAction",
+          "name": "incident record creation",
+          "template": "short_description={{vaInputs.short_description}}^sys_created_on={{vaInputs.issue_resolution_date_or_time}}^caller_id={{vaInputs.user.name}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "10f1df7fd3754d65997d30e90211ffdd"
+        },
+        "fb40dedbc6cf47fabe14b5fe5cb4fc7a": {
+          "id": "fb40dedbc6cf47fabe14b5fe5cb4fc7a",
+          "stepType": "Prompt",
+          "name": "issue resolution date or time",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "please provide the date by which you are expecting the issue to be resolved?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "a65c36baa2b64a808ec622909e5a37f5"
+        },
+        "20ab2d3566704450ade8d924adc189a2": {
+          "id": "20ab2d3566704450ade8d924adc189a2",
+          "stepType": "TextOutput",
+          "name": "incident details",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Sorry for the inconvenience.we tried our best to resolve.we are assigning a ticket to corresponding team who will resolve your issue quickly"
+                    },
+                    {
+                      "type": "emoji",
+                      "emoji": {
+                        "id": "slightly_smiling_face",
+                        "name": "Slightly Smiling Face",
+                        "short_names": [
+                          "slightly_smiling_face"
+                        ],
+                        "colons": ":slightly_smiling_face:",
+                        "emoticons": [
+                          ":)",
+                          "(:",
+                          ":-)"
+                        ],
+                        "unified": "1f642",
+                        "skin": null,
+                        "native": "🙂"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": " .Here are your ticket details "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.incident_record_creation.assignment_group}}",
+                        "displayValue": "Input Variables➛Incident Record Creation➛Assignment group"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.incident_record_creation.number}}",
+                        "displayValue": "Input Variables➛Incident Record Creation➛Number"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "ed563e6dc8634503bc7867a47ad54225"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "182a1d609b4041dfaf841cd41eb4cf6c": {
+          "id": "182a1d609b4041dfaf841cd41eb4cf6c",
+          "stepType": "TextOutput",
+          "name": "Response message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks for Contacting Help Desk."
+                    },
+                    {
+                      "type": "emoji",
+                      "emoji": {
+                        "id": "slightly_smiling_face",
+                        "name": "Slightly Smiling Face",
+                        "short_names": [
+                          "slightly_smiling_face"
+                        ],
+                        "colons": ":slightly_smiling_face:",
+                        "emoticons": [
+                          ":)",
+                          "(:",
+                          ":-)"
+                        ],
+                        "unified": "1f642",
+                        "skin": null,
+                        "native": "🙂"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": " "
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "6fdfddec1ea14b2eb3af4d900864eb2e"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
           }
         }
       },
       "edges": [
         {
+          "id": "916acc0dd771407a9804271d1cfae60a",
+          "edgeType": "Branch",
+          "source": "6fadd7ae22ae4c969f4c6dd98ccd0643",
+          "target": "6a1edbf107174615a2d14b5b16d7e758",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.what_is_the_issue_=Router CPU issue",
+            "mode": "query"
+          },
+          "label": "Router Cpu Issue"
+        },
+        {
           "id": "92e458ff83624e2d82bfa2931efd0ec9",
           "edgeType": "Edge",
           "source": "a72179e9604c4bbda2681ce9aa9ee14c",
+          "target": "ccaf7ba84fe74e4cbf1a925d8c082e94",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4bd1f4c6d0b44415aef131484ee27860",
+          "edgeType": "Edge",
+          "source": "ccaf7ba84fe74e4cbf1a925d8c082e94",
+          "target": "80c33d67353340d6bf94c662881a2ae5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c17afff1487541dd907b71648b542838",
+          "edgeType": "Edge",
+          "source": "80c33d67353340d6bf94c662881a2ae5",
+          "target": "5b57139ce26047eab9f77c4c37a53e23",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "36f6183c68224838b8c3d5ab88373a20",
+          "edgeType": "Edge",
+          "source": "5b57139ce26047eab9f77c4c37a53e23",
+          "target": "6d8fb5298dd94acdbf6402a1b51ae6c2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1ec80dd60ec34b7aa3f9307812e50739",
+          "edgeType": "Edge",
+          "source": "6d8fb5298dd94acdbf6402a1b51ae6c2",
+          "target": "6fadd7ae22ae4c969f4c6dd98ccd0643",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "16e0662152284a7eb8cce88a5d69b218",
+          "edgeType": "Branch",
+          "source": "6fadd7ae22ae4c969f4c6dd98ccd0643",
+          "target": "01e8731c57db428591ae2e3fcda69a2c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "Always"
+        },
+        {
+          "id": "1e2c8834d8db4e7c9c60c1787b732cbd",
+          "edgeType": "Edge",
+          "source": "6a1edbf107174615a2d14b5b16d7e758",
+          "target": "55045325f1b94ef69d9d208314becf65",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "66a5d8f41e3646b8a1e564332f5427a8",
+          "edgeType": "Edge",
+          "source": "55045325f1b94ef69d9d208314becf65",
+          "target": "c5b6dc6d90de4cb1b3d4ea603e7ed97e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c80b829904e54579879b340b138d8c03",
+          "edgeType": "Branch",
+          "source": "c5b6dc6d90de4cb1b3d4ea603e7ed97e",
+          "target": "fb40dedbc6cf47fabe14b5fe5cb4fc7a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.confirmation=No",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "caa274f684c540f596d6b2408ebeaab7",
+          "edgeType": "Edge",
+          "source": "fb40dedbc6cf47fabe14b5fe5cb4fc7a",
+          "target": "9938bd2eae624727a301770fdadf414a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1a52cd351afe4c8f9c2fd8a3fbdb93ab",
+          "edgeType": "Edge",
+          "source": "9938bd2eae624727a301770fdadf414a",
+          "target": "20ab2d3566704450ade8d924adc189a2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9f9d31f9b10348f0a620d12196cefaa6",
+          "edgeType": "Edge",
+          "source": "20ab2d3566704450ade8d924adc189a2",
           "target": "0fb22d44ed5e4d0186e20c80ae3d49b9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4372a3743caf421db436a3ab0acfb3ed",
+          "edgeType": "Branch",
+          "source": "c5b6dc6d90de4cb1b3d4ea603e7ed97e",
+          "target": "182a1d609b4041dfaf841cd41eb4cf6c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.confirmation=Yes",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "507c8a16bebf459eaf273fe61a8dbfc7",
+          "edgeType": "Edge",
+          "source": "182a1d609b4041dfaf841cd41eb4cf6c",
+          "target": "bc5785d94b6f406c8041149f8377be85",
           "sourcePort": "",
           "targetPort": ""
         }
@@ -54,6 +708,101 @@
       "name": "user",
       "table": "sys_user",
       "varType": "reference"
+    },
+    "8231ee811dbd4b5e9ae440ef889835fe": {
+      "id": "8231ee811dbd4b5e9ae440ef889835fe",
+      "name": "short_description",
+      "label": "Short Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTY3MzAwMDA3ODQ4MyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "0bec6b6ce7bf4a3fa55198d3556a9cb1": {
+      "id": "0bec6b6ce7bf4a3fa55198d3556a9cb1",
+      "name": "what_is_the_issue_",
+      "label": "What Is The Issue?",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Issue1:Router CPU issue",
+          "value": "Router CPU issue"
+        },
+        {
+          "label": "Issue2:Router Firmware issue",
+          "value": "Issue2:Router Firmware issue"
+        },
+        {
+          "label": "Issue3:Router Password Issue",
+          "value": "Issue3:Router Password Issue",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "109aae5f516d4ebd9e0cf48ca86c9199": {
+      "id": "109aae5f516d4ebd9e0cf48ca86c9199",
+      "name": "location_details",
+      "label": "Location Details",
+      "varType": "reference",
+      "table": "cmn_location",
+      "category": "vaInputs"
+    },
+    "a2fdca5aea8142fe850928fff349967b": {
+      "id": "a2fdca5aea8142fe850928fff349967b",
+      "name": "router_selection",
+      "label": "Router Selection",
+      "varType": "reference",
+      "table": "cmdb_ci_ip_router",
+      "category": "vaInputs"
+    },
+    "b2bb15f31bd544a781cb4d9a01b9b7a5": {
+      "id": "b2bb15f31bd544a781cb4d9a01b9b7a5",
+      "name": "update_router_record",
+      "label": "Update Router Record",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs"
+    },
+    "cdf9dfa1b72549c8a5f319374182cc06": {
+      "id": "cdf9dfa1b72549c8a5f319374182cc06",
+      "name": "confirmation",
+      "label": "Confirmation",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "10f1df7fd3754d65997d30e90211ffdd": {
+      "id": "10f1df7fd3754d65997d30e90211ffdd",
+      "name": "incident_record_creation",
+      "label": "Incident Record Creation",
+      "varType": "reference",
+      "table": "incident",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "a65c36baa2b64a808ec622909e5a37f5": {
+      "id": "a65c36baa2b64a808ec622909e5a37f5",
+      "name": "issue_resolution_date_or_time",
+      "label": "Issue Resolution Date Or Time",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time"
     }
   }
 }</graph>

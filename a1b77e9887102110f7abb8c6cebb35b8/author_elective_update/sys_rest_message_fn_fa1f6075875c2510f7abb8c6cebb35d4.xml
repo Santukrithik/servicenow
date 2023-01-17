@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Salesforce Outbound message [ Default GET ]</qualified_name>
+        <rest_endpoint>https://login.salesforce.com/services/oauth2/userinfo</rest_endpoint>
+        <rest_message display_value="Salesforce Outbound message">8aee68bd87dc2510f7abb8c6cebb35b7</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 12:16:15</sys_created_on>
+        <sys_id>fa1f6075875c2510f7abb8c6cebb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_rest_message_fn_fa1f6075875c2510f7abb8c6cebb35d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 12:16:15</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</application>
+        <file_path/>
+        <instance_id>574ecf24db6b19103050ac44d4961936</instance_id>
+        <instance_name>dev145820</instance_name>
+        <name>sys_rest_message_fn_fa1f6075875c2510f7abb8c6cebb35d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Salesforce Outbound message [ Default GET ]</qualified_name><rest_endpoint>https://login.salesforce.com/services/oauth2/userinfo</rest_endpoint><rest_message display_value="Salesforce Outbound message">8aee68bd87dc2510f7abb8c6cebb35b7</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-10 12:16:15</sys_created_on><sys_id>fa1f6075875c2510f7abb8c6cebb35d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package><sys_policy/><sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope><sys_update_name>sys_rest_message_fn_fa1f6075875c2510f7abb8c6cebb35d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-10 12:16:15</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1584479298</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>6459b2d887102110f7abb8c6cebb3537</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 12:16:15</sys_created_on>
+        <sys_id>b21f6075875c2510f7abb8c6cebb35d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1859b9c13eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 12:16:15</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>fa1f6075535c25106718968379da57d6</update_guid>
+        <update_guid_history>fa1f6075535c25106718968379da57d6:-1584479298</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 08:41:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>5b59f03b0fef44c0895cdca21f04e100</sys_id>
+        <sys_metadata>fa1f6075875c2510f7abb8c6cebb35d4</sys_metadata>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">4d48dd6706f94f3699a97207997791e4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_fa1f6075875c2510f7abb8c6cebb35d4</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_fa1f6075875c2510f7abb8c6cebb35d4">b21f6075875c2510f7abb8c6cebb35d7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

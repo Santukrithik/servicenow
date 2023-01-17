@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA Selfcare Diagnostics - New Tab 3">cf293f3787902110f7abb8c6cebb35fa</legacy_page>
+        <name>PA Selfcare Diagnostics - New Tab 3</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 08:06:56</sys_created_on>
+        <sys_id>47293f3787902110f7abb8c6cebb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Selfcare Diagnostics - New Tab 3</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_grid_canvas_47293f3787902110f7abb8c6cebb35fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 08:06:56</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</application>
+        <file_path/>
+        <instance_id>574ecf24db6b19103050ac44d4961936</instance_id>
+        <instance_name>dev145820</instance_name>
+        <name>sys_grid_canvas_47293f3787902110f7abb8c6cebb35fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Selfcare Diagnostics - New Tab 3">cf293f3787902110f7abb8c6cebb35fa</legacy_page><name>PA Selfcare Diagnostics - New Tab 3</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-17 08:06:56</sys_created_on><sys_id>47293f3787902110f7abb8c6cebb35fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Selfcare Diagnostics - New Tab 3</sys_name><sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package><sys_policy/><sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope><sys_update_name>sys_grid_canvas_47293f3787902110f7abb8c6cebb35fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-17 08:06:56</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>-1384846582</payload_hash>
+        <record_name>PA Selfcare Diagnostics - New Tab 3</record_name>
+        <reverted_from/>
+        <source>6459b2d887102110f7abb8c6cebb3537</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 08:06:56</sys_created_on>
+        <sys_id>cf29377787902110f7abb8c6cebb35e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185bec455f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 08:06:56</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>0b29377774902110d3f6c17ef95edee7</update_guid>
+        <update_guid_history>0b29377774902110d3f6c17ef95edee7:-1384846582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 08:07:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>530ad81ebcb443a3a159c3948ef526c9</sys_id>
+        <sys_metadata>47293f3787902110f7abb8c6cebb35fb</sys_metadata>
+        <sys_name>PA Selfcare Diagnostics - New Tab 3</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">4d48dd6706f94f3699a97207997791e4</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_47293f3787902110f7abb8c6cebb35fb</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_47293f3787902110f7abb8c6cebb35fb">cf29377787902110f7abb8c6cebb35e7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
