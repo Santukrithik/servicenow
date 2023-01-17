@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
     <sys_rest_message action="INSERT_OR_UPDATE">
-        <access>public</access>
+        <access>package_private</access>
         <authentication_type>oauth2</authentication_type>
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
-        <description>sending outbound messages</description>
-        <name>salesforce outbound message</name>
+        <description/>
+        <name>sforce</name>
         <oauth2_profile display_value="Sforce default_profile">bca6600087642110f7abb8c6cebb3559</oauth2_profile>
         <protocol_name/>
-        <rest_endpoint>https://accolitedigital-1a-dev-ed.my.salesforce.com/services/data/v57.0/sobjects/Account/</rest_endpoint>
+        <rest_endpoint> https://accolitedigital-1a-dev-ed.my.salesforce.com/services/data/v42.0/sobjects/Account/</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-11 08:42:28</sys_created_on>
-        <sys_id>b3870d0a87dc6510f7abb8c6cebb3519</sys_id>
-        <sys_name>salesforce outbound message</sys_name>
+        <sys_created_on>2023-01-17 11:40:13</sys_created_on>
+        <sys_id>3858a40087642110f7abb8c6cebb35c4</sys_id>
+        <sys_name>sforce</sys_name>
         <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
         <sys_policy/>
         <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
-        <sys_update_name>sys_rest_message_b3870d0a87dc6510f7abb8c6cebb3519</sys_update_name>
+        <sys_update_name>sys_rest_message_3858a40087642110f7abb8c6cebb35c4</sys_update_name>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>
