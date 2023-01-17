@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="Default GET">67f9604087642110f7abb8c6cebb359f</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 13:33:42</sys_created_on>
+        <sys_id>45d3c10087a42110f7abb8c6cebb35bb</sys_id>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_45d3c10087a42110f7abb8c6cebb35bb</sys_update_name>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+</record_update>
