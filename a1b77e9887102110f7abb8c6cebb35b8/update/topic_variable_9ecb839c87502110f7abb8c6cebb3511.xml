@@ -62,11 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-01-06 07:49:54</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_id>198ebfc4477121106831f8b7536d4338</sys_id>
         <sys_name>User</sys_name>
         <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
         <sys_policy/>
         <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
         <sys_update_name>topic_variable_9ecb839c87502110f7abb8c6cebb3511</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 06:27:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -79,5 +82,5 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </topic_variable>
-    <sys_element_mapping action="delete_multiple" query="id=9ecb839c87502110f7abb8c6cebb3511"/>
+    <sys_element_mapping action="delete_multiple" query="id=198ebfc4477121106831f8b7536d4338"/>
 </record_update>

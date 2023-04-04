@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="DELETE">
+        <oauth_entity_profile display_value="Salesforce Oauth default_profile">9f37936987982510f7abb8c6cebb352a</oauth_entity_profile>
+        <oauth_entity_scope display_value="chatter_api">0cd7d7e587982510f7abb8c6cebb3579</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 06:08:16</sys_created_on>
+        <sys_id>4ee913e987982510f7abb8c6cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f37936987982510f7abb8c6cebb352a</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_4ee913e987982510f7abb8c6cebb35cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 06:08:16</sys_updated_on>
+    </oauth_entity_profile_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</application>
+        <file_path/>
+        <instance_id>574ecf24db6b19103050ac44d4961936</instance_id>
+        <instance_name>dev145820</instance_name>
+        <name>oauth_entity_profile_scope_4ee913e987982510f7abb8c6cebb35cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope"><oauth_entity_profile_scope action="INSERT_OR_UPDATE"><oauth_entity_profile display_value="Salesforce Oauth default_profile">9f37936987982510f7abb8c6cebb352a</oauth_entity_profile><oauth_entity_scope display_value="chatter_api">0cd7d7e587982510f7abb8c6cebb3579</oauth_entity_scope><sys_class_name>oauth_entity_profile_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-10 06:08:16</sys_created_on><sys_id>4ee913e987982510f7abb8c6cebb35cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>9f37936987982510f7abb8c6cebb352a</sys_name><sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package><sys_policy/><sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope><sys_update_name>oauth_entity_profile_scope_4ee913e987982510f7abb8c6cebb35cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-10 06:08:16</sys_updated_on></oauth_entity_profile_scope></record_update>]]></payload>
+        <payload_hash>-267788392</payload_hash>
+        <record_name>9f37936987982510f7abb8c6cebb352a</record_name>
+        <reverted_from/>
+        <source>6459b2d887102110f7abb8c6cebb3537</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 06:08:16</sys_created_on>
+        <sys_id>6cead36d87982510f7abb8c6cebb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1859a4b2e290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 06:08:16</sys_updated_on>
+        <type>OAuth Entity Profile Scope</type>
+        <update_guid>a4ead36d66982510a434c4da0e457596</update_guid>
+        <update_guid_history>a4ead36d66982510a434c4da0e457596:-267788392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4993414687dc6510f7abb8c6cebb355f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 08:24:10</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile_scope">oauth_entity_profile_scope</sys_db_object>
+        <sys_id>6483d4ad45ad4a1a8dc36efa68e27669</sys_id>
+        <sys_metadata>4ee913e987982510f7abb8c6cebb35cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f37936987982510f7abb8c6cebb352a</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">4d48dd6706f94f3699a97207997791e4</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_scope_4ee913e987982510f7abb8c6cebb35cc</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_scope_4ee913e987982510f7abb8c6cebb35cc">6cead36d87982510f7abb8c6cebb3596</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 06:27:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

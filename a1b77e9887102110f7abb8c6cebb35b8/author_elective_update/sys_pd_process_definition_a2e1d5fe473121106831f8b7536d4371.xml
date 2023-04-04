@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <label>Test</label>
+        <name>test</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 06:56:26</sys_created_on>
+        <sys_id>a2e1d5fe473121106831f8b7536d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 06:56:27</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <label>Test</label>
+        <name>test</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 06:56:26</sys_created_on>
+        <sys_id>a2e1d5fe473121106831f8b7536d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 06:56:27</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="DELETE" query="process_definition=a2e1d5fe473121106831f8b7536d4371"/>
+    <sys_pd_activity action="DELETE" query="process_definition=a2e1d5fe473121106831f8b7536d4371"/>
+    <sys_pd_swim_lane action="DELETE" query="process_definition=a2e1d5fe473121106831f8b7536d4371"/>
+    <sys_pd_activity_m2m_app_object action="DELETE" query="activity.process_definition=a2e1d5fe473121106831f8b7536d4371"/>
+    <sys_pd_snapshot action="DELETE" query="sys_id="/>
+    <sys_json_chunk action="DELETE" query="document_id="/>
+    <sys_pd_snapshot_chunk action="DELETE" query="document_id="/>
+    <sys_pd_trigger_instance action="DELETE" query="sys_id=62e19d36473121106831f8b7536d4368^sys_idNOT IN62e19d36473121106831f8b7536d4368"/>
+    <sys_pd_trigger_instance action="DELETE">
+        <label/>
+        <name/>
+        <process_definition display_value="Test">a2e1d5fe473121106831f8b7536d4371</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 06:56:27</sys_created_on>
+        <sys_id>62e19d36473121106831f8b7536d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 06:56:27</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=62e19d36473121106831f8b7536d4368"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</application>
+        <file_path/>
+        <instance_id>d28642ebdbe49b041ddcf22ebf9619a4</instance_id>
+        <instance_name>dev51794</instance_name>
+        <name>sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition"><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><label>Test</label><name>test</name><run_on_pad_engine>false</run_on_pad_engine><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-29 06:56:26</sys_created_on><sys_id>a2e1d5fe473121106831f8b7536d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package><sys_policy/><sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope><sys_update_name>sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-29 06:56:27</sys_updated_on><view_type>KANBAN</view_type></sys_pd_process_definition><sys_pd_process_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><description/><label>Test</label><name>test</name><run_on_pad_engine>false</run_on_pad_engine><snapshot/><status>draft</status><sys_class_name>sys_pd_process_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-29 06:56:26</sys_created_on><sys_id>a2e1d5fe473121106831f8b7536d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package><sys_policy/><sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope><sys_update_name>sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-29 06:56:27</sys_updated_on><view_type>KANBAN</view_type></sys_pd_process_definition><sys_pd_lane action="delete_multiple" query="process_definition=a2e1d5fe473121106831f8b7536d4371"/><sys_pd_activity action="delete_multiple" query="process_definition=a2e1d5fe473121106831f8b7536d4371"/><sys_pd_swim_lane action="delete_multiple" query="process_definition=a2e1d5fe473121106831f8b7536d4371"/><sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=a2e1d5fe473121106831f8b7536d4371"/><sys_pd_snapshot action="delete_multiple" query="sys_id="/><sys_json_chunk action="delete_multiple" query="document_id="/><sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/><sys_pd_trigger_instance action="delete_multiple" query="sys_id=62e19d36473121106831f8b7536d4368^sys_idNOT IN62e19d36473121106831f8b7536d4368"/><sys_pd_trigger_instance action="INSERT_OR_UPDATE"><label/><name/><process_definition display_value="Test">a2e1d5fe473121106831f8b7536d4371</process_definition><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-29 06:56:27</sys_created_on><sys_id>62e19d36473121106831f8b7536d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-29 06:56:27</sys_updated_on><trigger_definition/><trigger_inputs/><trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type></sys_pd_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=62e19d36473121106831f8b7536d4368"/></record_update>]]></payload>
+        <payload_hash>-725672434</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>b89eb3c4477121106831f8b7536d436b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 06:56:27</sys_created_on>
+        <sys_id>6ae1d5fe473121106831f8b7536d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1872c2752570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 06:56:27</sys_updated_on>
+        <type>Process Definition</type>
+        <update_guid>aee1d5fe71312110da80c4273332d1cb</update_guid>
+        <update_guid_history>aee1d5fe71312110da80c4273332d1cb:-725672434,a6e1d5feea31211028fcf01d11015b74:-956014051</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 07:05:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_pd_process_definition">sys_pd_process_definition</sys_db_object>
+        <sys_id>5fe3a187485d45a8ad84a22cda024209</sys_id>
+        <sys_metadata>a2e1d5fe473121106831f8b7536d4371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">4d48dd6706f94f3699a97207997791e4</sys_scope_delete>
+        <sys_update_name>sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371</sys_update_name>
+        <sys_update_version display_value="sys_pd_process_definition_a2e1d5fe473121106831f8b7536d4371">6ae1d5fe473121106831f8b7536d43cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 07:05:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

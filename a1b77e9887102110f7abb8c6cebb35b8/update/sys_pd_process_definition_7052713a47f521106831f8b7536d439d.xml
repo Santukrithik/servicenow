@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <label>Test</label>
+        <name>test</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 09:18:02</sys_created_on>
+        <sys_id>7052713a47f521106831f8b7536d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_pd_process_definition_7052713a47f521106831f8b7536d439d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 09:18:03</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <label>Test</label>
+        <name>test</name>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <snapshot/>
+        <status>draft</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 09:18:02</sys_created_on>
+        <sys_id>7052713a47f521106831f8b7536d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="servicenow diagnostics" source="x_819558_serviceno">a1b77e9887102110f7abb8c6cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="servicenow diagnostics">a1b77e9887102110f7abb8c6cebb35b8</sys_scope>
+        <sys_update_name>sys_pd_process_definition_7052713a47f521106831f8b7536d439d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 09:18:03</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=7052713a47f521106831f8b7536d439d"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=7052713a47f521106831f8b7536d439d"/>
+    <sys_pd_swim_lane action="delete_multiple" query="process_definition=7052713a47f521106831f8b7536d439d"/>
+    <sys_pd_activity_m2m_app_object action="delete_multiple" query="activity.process_definition=7052713a47f521106831f8b7536d439d"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id="/>
+    <sys_json_chunk action="delete_multiple" query="document_id="/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id="/>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=f05231f6473921106831f8b7536d43f3^sys_idNOT INf05231f6473921106831f8b7536d43f3"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <process_definition display_value="Test">7052713a47f521106831f8b7536d439d</process_definition>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 09:18:03</sys_created_on>
+        <sys_id>f05231f6473921106831f8b7536d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 09:18:03</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f05231f6473921106831f8b7536d43f3"/>
+</record_update>
